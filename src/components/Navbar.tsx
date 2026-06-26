@@ -40,7 +40,6 @@ export default function Navbar() {
     { label: "Skills", id: "skills" },
     { label: "Projects", id: "projects" },
     { label: "Timeline", id: "timeline" },
-    { label: "Github", id: "github" },
     { label: "Contact", id: "contact" },
   ];
 

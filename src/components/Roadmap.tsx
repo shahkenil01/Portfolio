@@ -8,17 +8,17 @@ export default function Roadmap() {
     { title: "HTML & CSS", icon: FaHtml5, desc: "Foundational styling", status: "completed" },
     { title: "JavaScript", icon: FaJs, desc: "Interactive logics", status: "completed" },
     { title: "React & Node", icon: FaReact, desc: "Full Stack UI/APIs", status: "completed" },
-    { title: "MongoDB / SQL", icon: FaDatabase, desc: "Data persistence", status: "completed" },
-    { title: "Git & Versioning", icon: FaGitAlt, desc: "Code tracking", status: "completed" },
-    { title: "Linux Shell", icon: FaLinux, desc: "System administrations", status: "completed" },
-    { title: "Docker Containers", icon: FaDocker, desc: "Application packaging", status: "completed" },
-    { title: "Actions & Pipelines", icon: SiGithubactions, level: 80, desc: "CI/CD automations", status: "completed" },
-    { title: "AWS Cloud Host", icon: FaAws, desc: "Hosting & provisioning", status: "completed" },
-    { title: "FastAPI & Uvicorn", icon: FaTerminal, desc: "AI microservice routing", status: "completed" },
-    { title: "sklearn AI Models", icon: FaDatabase, desc: "Machine Learning models", status: "completed" },
-    { title: "Kubernetes (K8s)", icon: SiKubernetes, desc: "Container orchestrations", status: "future" },
-    { title: "Terraform IaC", icon: SiTerraform, desc: "Infrastructure as Code", status: "future" },
-    { title: "Jenkins Systems", icon: SiJenkins, desc: "Enterprise pipelines", status: "future" },
+    { title: "MongoDB", icon: FaDatabase, desc: "Data persistence", status: "completed" },
+    { title: "Git & GitHub", icon: FaGitAlt, desc: "Code tracking & collaboration", status: "completed" },
+    { title: "Linux Shell", icon: FaLinux, desc: "System administrations", status: "learning" },
+    { title: "Docker Containers", icon: FaDocker, desc: "Application packaging", status: "learning" },
+    { title: "Actions & Pipelines", icon: SiGithubactions, desc: "CI/CD automations", status: "learning" },
+    { title: "AWS Cloud Host", icon: FaAws, desc: "Hosting & provisioning", status: "learning" },
+    { title: "FastAPI & Uvicorn", icon: FaTerminal, desc: "AI microservice routing", status: "learning" },
+    { title: "sklearn AI Models", icon: FaDatabase, desc: "Machine Learning models", status: "learning" },
+    { title: "Kubernetes (K8s)", icon: SiKubernetes, desc: "Container orchestrations", status: "learning" },
+    { title: "Terraform IaC", icon: SiTerraform, desc: "Infrastructure as Code", status: "learning" },
+    { title: "Jenkins Systems", icon: SiJenkins, desc: "Enterprise pipelines", status: "learning" },
   ];
 
   return (
@@ -58,7 +58,7 @@ export default function Roadmap() {
                       ? "bg-primary/10 text-primary" 
                       : "bg-secondary/10 text-secondary"
                   }`}>
-                    {isCompleted ? "COMPLETED" : "FUTURE"}
+                    {isCompleted ? "COMPLETED" : "LEARNING"}
                   </span>
                 </div>
 

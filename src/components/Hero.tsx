@@ -8,7 +8,7 @@ export default function Hero() {
   const titles = [
     "Aspiring DevOps Engineer",
     "Full Stack Developer",
-    "AI/ML Developer & Practitioner"
+    "AI/ML Solutions Developer"
   ];
   const [titleIdx, setTitleIdx] = useState(0);
   const [displayText, setDisplayText] = useState("");

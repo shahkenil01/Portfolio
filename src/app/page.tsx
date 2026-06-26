@@ -7,7 +7,6 @@ import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import Timeline from "@/components/Timeline";
 import Roadmap from "@/components/Roadmap";
-import GitHubSection from "@/components/GitHubSection";
 import StatsSection from "@/components/StatsSection";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
@@ -28,7 +27,6 @@ export default function Home() {
         <Projects />
         <Timeline />
         <Roadmap />
-        <GitHubSection />
         <StatsSection />
         <Contact />
       </div>
