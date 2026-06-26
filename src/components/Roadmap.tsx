@@ -1,7 +1,6 @@
 "use client";
 
-import React from "react";
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaDatabase, FaGitAlt, FaLinux, FaDocker, FaAws } from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaDatabase, FaGitAlt, FaLinux, FaDocker, FaAws, FaTerminal } from "react-icons/fa";
 import { SiGithubactions, SiKubernetes, SiTerraform, SiJenkins } from "react-icons/si";
 
 export default function Roadmap() {
