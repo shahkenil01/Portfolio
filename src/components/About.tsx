@@ -26,10 +26,10 @@ export default function About() {
               Who is Shah Kenil?
             </h3>
             <p className="text-gray-300 font-inter leading-relaxed">
-              I am an Information Technology student passionate about DevOps, Cloud Computing, and Full Stack Development. I enjoy building scalable web applications and learning modern DevOps practices.
+              I am an Information Technology student passionate about DevOps, Cloud Computing, Full Stack Development, and Artificial Intelligence / Machine Learning. I enjoy building scalable web applications and learning modern DevOps practices.
             </p>
             <p className="text-gray-300 font-inter leading-relaxed">
-              Currently, I am focused on Linux, Docker, Git, GitHub Actions, AWS, and CI/CD while continuously improving my software development skills. My goal is to become a skilled DevOps Engineer capable of building reliable, automated, and scalable deployment pipelines.
+              Currently, I am focused on Linux, Docker, Git, GitHub Actions, AWS, and CI/CD while also developing and integrating ML models with frameworks like FastAPI. My goal is to work at the intersection of development, operations, and AI to build reliable, automated, and intelligent systems.
             </p>
 
             <div className="flex flex-wrap gap-4 pt-4">

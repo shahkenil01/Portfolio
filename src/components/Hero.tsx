@@ -5,7 +5,11 @@ import { motion } from "framer-motion";
 import { FaTerminal, FaCloud, FaShieldAlt } from "react-icons/fa";
 
 export default function Hero() {
-  const titles = ["Aspiring DevOps Engineer", "Full Stack Developer"];
+  const titles = [
+    "Aspiring DevOps Engineer",
+    "Full Stack Developer",
+    "AI/ML Developer & Practitioner"
+  ];
   const [titleIdx, setTitleIdx] = useState(0);
   const [displayText, setDisplayText] = useState("");
   const [isDeleting, setIsDeleting] = useState(false);
@@ -80,7 +84,7 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-gray-400 font-inter text-base max-w-lg leading-relaxed"
           >
-            Passionate about building highly reliable deployment pipelines, automation, cloud infrastructure and scalable full-stack applications.
+            Passionate about building highly reliable deployment pipelines, automation, cloud infrastructure, scalable full-stack applications, and AI/ML model integrations.
           </motion.p>
 
           <motion.div
@@ -127,11 +131,11 @@ export default function Hero() {
             {/* Orbiting Skill Balloon nodes */}
             {[
               { name: "Docker", angle: 0, delay: 0, color: "border-blue-400 text-blue-400" },
-              { name: "Linux", angle: 60, delay: 0.5, color: "border-amber-400 text-amber-400" },
+              { name: "FastAPI", angle: 60, delay: 0.5, color: "border-teal-400 text-teal-400" },
               { name: "AWS", angle: 120, delay: 1, color: "border-orange-400 text-orange-400" },
               { name: "Git", angle: 180, delay: 1.5, color: "border-red-400 text-red-400" },
               { name: "React", angle: 240, delay: 2, color: "border-cyan-400 text-cyan-400" },
-              { name: "CI/CD", angle: 300, delay: 2.5, color: "border-purple-400 text-purple-400" },
+              { name: "sklearn", angle: 300, delay: 2.5, color: "border-emerald-400 text-emerald-400" },
             ].map((skill, idx) => {
               const radius = 110;
               const x = Math.cos((skill.angle * Math.PI) / 180) * radius;
